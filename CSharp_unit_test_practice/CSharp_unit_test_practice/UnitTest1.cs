@@ -26,14 +26,13 @@ namespace CSharp_unit_test_practice
             // FirefoxDriver driver = new FirefoxDriver();
             driver.Manage().Window.Maximize();
             driver.Url = "http://juice-shop.herokuapp.com/";
+            driver.FindElement(By.CssSelector(".close-dialog")).Click();
+            driver.FindElement(By.CssSelector(".cc-btn")).Click();
         }
 
         [TestMethod]
         public void LoginLogout()
         {            
-            driver.FindElement(By.CssSelector(".close-dialog")).Click();
-            driver.FindElement(By.CssSelector(".cc-btn")).Click();
-
             IList<IWebElement> cards = new List<IWebElement>();
             cards = driver.FindElements(By.CssSelector("div > mat-card"));
 
@@ -56,8 +55,13 @@ namespace CSharp_unit_test_practice
         [TestMethod]
         public void NavigationTest()
         {
-            //TestCase_from_Class_Library test_navigation = new TestCase_from_Class_Library();
-            //bool nav_success = test_navigation.Test_Navigation(driver);
+            driver.FindElement(By.Id("navbarAccount")).Click();
+            Thread.Sleep(1000);
+            driver.FindElement(By.Id("navbarLoginButton")).Click();
+            Thread.Sleep(2000);
+            TestCase_from_Class_Library test_navigation = new TestCase_from_Class_Library();
+            bool nav_success = test_navigation.Test_Navigation(driver.Url);
+            Console.WriteLine("Returned :" + nav_success);
         }
 
         [TestMethod]
