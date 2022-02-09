@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "6Hv/btf9ZCWhWIB3nNpj0F0XyIAkY4yZ2pZsVf8IQXEGVQgv2y4owX88Twq3JBH6VJYu5fxsBqd5JQtszQ9J/w==",
+  "success": true,
+  "projectFilePath": "C:\\Harsh\\Personal\\Toptal\\CSharp_automation_practice\\CSharp_unit_test_practice\\Class_library_practice_selenium\\Class_library_practice_selenium.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HARSHAH\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\HARSHAH\\.nuget\\packages\\selenium.webdriver\\4.1.0\\selenium.webdriver.4.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
