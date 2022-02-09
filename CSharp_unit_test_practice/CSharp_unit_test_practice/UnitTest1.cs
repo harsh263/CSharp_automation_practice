@@ -33,10 +33,23 @@ namespace CSharp_unit_test_practice
 
             foreach (IWebElement product_card in cards)
             {
-                product_card.Click();
-                Thread.Sleep(5);
-                product_card.FindElement(By.XPath("//button[@aria-label=\"Close Dialog\"]")).Click();
+                try
+                {
+                    product_card.Click();
+                    Thread.Sleep(500);
+                    product_card.FindElement(By.XPath("//button[@aria-label=\"Close Dialog\"]")).Click();
+                }
+                catch
+                {
+                    Thread.Sleep(1);
+                }
+                
             }
+        }
+
+        [TestCleanup]
+        public void clean_up()
+        {
             driver.Quit();
         }
     }
