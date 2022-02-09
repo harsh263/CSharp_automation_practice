@@ -18,4 +18,10 @@
     <PackageReference Include="WebDriverManager" Version="2.12.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Class_library_practice_selenium">
+      <HintPath>..\Class_library_practice_selenium\bin\Debug\net6.0\Class_library_practice_selenium.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

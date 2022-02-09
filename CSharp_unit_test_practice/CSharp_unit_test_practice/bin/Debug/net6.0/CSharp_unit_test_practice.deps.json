@@ -15,7 +15,8 @@
           "Selenium.WebDriver": "4.1.0",
           "Selenium.WebDriver.ChromeDriver": "97.0.4692.7100",
           "WebDriverManager": "2.12.3",
-          "coverlet.collector": "3.1.0"
+          "coverlet.collector": "3.1.0",
+          "Class_library_practice_selenium": "1.0.0.0"
         },
         "runtime": {
           "CSharp_unit_test_practice.dll": {}
@@ -1076,6 +1077,14 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "Class_library_practice_selenium/1.0.0.0": {
+        "runtime": {
+          "Class_library_practice_selenium.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1749,6 +1758,11 @@
       "sha512": "sha512-gP9b5BIPMAzxCvC8EODkKpM0hxrSu7SsjVwvefeV7LiwUQnJ4y8uuH3AsxOTeQfzW8g2zSpCcVRi/O76Co9AgQ==",
       "path": "webdrivermanager/2.12.3",
       "hashPath": "webdrivermanager.2.12.3.nupkg.sha512"
+    },
+    "Class_library_practice_selenium/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

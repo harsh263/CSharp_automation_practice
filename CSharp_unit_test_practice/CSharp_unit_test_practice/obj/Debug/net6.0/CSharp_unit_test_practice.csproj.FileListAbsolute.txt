@@ -101,3 +101,5 @@ C:\Harsh\Personal\Toptal\CSharp_automation_practice\CSharp_unit_test_practice\CS
 C:\Harsh\Personal\Toptal\CSharp_automation_practice\CSharp_unit_test_practice\CSharp_unit_test_practice\bin\Debug\net6.0\AngleSharp.dll
 C:\Harsh\Personal\Toptal\CSharp_automation_practice\CSharp_unit_test_practice\CSharp_unit_test_practice\bin\Debug\net6.0\ICSharpCode.SharpZipLib.dll
 C:\Harsh\Personal\Toptal\CSharp_automation_practice\CSharp_unit_test_practice\CSharp_unit_test_practice\bin\Debug\net6.0\WebDriverManager.dll
+C:\Harsh\Personal\Toptal\CSharp_automation_practice\CSharp_unit_test_practice\CSharp_unit_test_practice\bin\Debug\net6.0\Class_library_practice_selenium.dll
+C:\Harsh\Personal\Toptal\CSharp_automation_practice\CSharp_unit_test_practice\CSharp_unit_test_practice\bin\Debug\net6.0\Class_library_practice_selenium.pdb
